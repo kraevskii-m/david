@@ -1,0 +1,8 @@
+DROP TABLE task;
+
+CREATE TABLE task (
+  id SERIAL PRIMARY KEY,
+  name CHAR(64)
+);
+
+INSERT INTO task (name) VALUES ('task 1');
